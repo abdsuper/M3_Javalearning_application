@@ -3,4 +3,6 @@
 16 Pant Jeans 1000.0 100.0 8 
 1 Pant Qanty 800.0 20.0 6 
 5 Jacket Amaze 500.0 10.0 0 
-0 kli opoi 3000.0 90.0 1 
+0 kli opoi 3000.0 90.0 0 
+7 op lasi 1090.0 90.0 1 
+4 Rebok Bat 1500.0 100.0 0 

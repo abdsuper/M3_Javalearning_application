@@ -2,7 +2,7 @@
 
 import java.io.*;
 import java.util.*;
-class Watches extends Product
+class Watches extends Item
 {
     
     Watches(){

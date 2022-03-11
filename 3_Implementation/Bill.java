@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.text.SimpleDateFormat;
 
-class Bill extends Product {
+class Bill extends Item {
     public void lineadder() {
         for (int x = 0; x < 60; x++) {
             System.out.print("-");      

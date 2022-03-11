@@ -2,7 +2,7 @@
 class Main{
     public static void main(String args[]){
         
-        Mall obj = new Mall();
+        Adminrights obj = new Adminrights();
         Thread t1 = new Thread(obj);
         Thread t2= new Thread(obj);
         Thread t3 = new Thread(obj);

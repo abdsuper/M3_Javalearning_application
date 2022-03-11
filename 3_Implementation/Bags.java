@@ -1,8 +1,8 @@
 /** This class deals with Bags and thus inherits the Product class */
 
 import java.io.*;
-class Bags extends Product
-{
+class Bags extends Item
+{   
 Bags(){
         super();
     }
