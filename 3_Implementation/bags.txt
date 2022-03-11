@@ -1,4 +1,5 @@
-33 amer light 1222.0 2.0 9 
-344 riol' fether 2123.0 213.0 0 
-32 asddas adsad 231312.0 1231.0 0 
-16 newb lolli 1000.0 10.0 0 
+6 Shirt Polo 900.0 40.0  4 
+15 Shirt Vp 500.0 0.0 10
+16 Pant Jeans 1000.0 100.0 10
+1 Pant Qanty 800.0 20.0 10
+5 Jacket Amaze 500.0 10.0 1 
