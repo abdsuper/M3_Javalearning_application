@@ -14,7 +14,7 @@ public class Adminrights implements Runnable{
             switch(cus)
             {
                 case "YES" :Customer obj = new Customer();
-                        System.out.println("Watches\nBags");
+                        System.out.println("Watches\nClothes");
                        String ch=sc.next();
                       
                         obj.show(ch);
@@ -31,7 +31,7 @@ public class Adminrights implements Runnable{
                     if(ch.equals("Add"))
                     {
                         System.out.println("Fill product details below:");
-                        System.out.println("Enter category :\nw - watches \nb - bags");
+                        System.out.println("Enter category :\nw - watches \nb - Clothes");
                         char cat=sc.next().charAt(0);
                         System.out.println("Enter product number");
                         int p=sc.nextInt();
@@ -101,7 +101,7 @@ public class Adminrights implements Runnable{
             if(id.equals(str.substring(0,firstgap)))
             {
 
-                return new Mall().password(str.substring(firstgap+1));
+                return new Adminrights().password(str.substring(firstgap+1));
             }
             else
             return false;

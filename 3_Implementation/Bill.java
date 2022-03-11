@@ -43,7 +43,7 @@ class Bill extends Item {
                 System.out.print("|");
             System.out.print(" ");
         }
-        S = "MRP";
+        S = "Cost";
         System.out.print(S);
         for (int k = S.length(); k < 10; k++) {
             if (k == 5)
@@ -51,7 +51,7 @@ class Bill extends Item {
                 System.out.print(" ");
             
         }
-        S = "DISCOUNT";
+        S = "DISCOUNT_RATE";
         System.out.print(S);
         for (int k = S.length(); k < 20; k++) {
             if (k == 10)

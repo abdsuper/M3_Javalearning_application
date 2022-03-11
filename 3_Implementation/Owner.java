@@ -18,7 +18,7 @@ class Owner {
             }
             else if(c=='b')
             {
-                Bags obj = new Bags(p,name,brand,price,discount);
+                Clothes obj = new Clothes(p,name,brand,price,discount);
                 obj.add();
             }
         }
@@ -36,7 +36,7 @@ class Owner {
             {
                 System.out.println("Enter the product number");
                 int n=sc.nextInt();
-                Bags obj = new Bags(p,name,brand,price,discount);
+                Clothes obj = new Clothes(p,name,brand,price,discount);
                 obj.remove(n);
             }
         }

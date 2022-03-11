@@ -12,9 +12,9 @@ class Customer
         {  f= new File("watches.txt");
 
     }
-    else if(category.equalsIgnoreCase("Bags"))
+    else if(category.equalsIgnoreCase("Clothes"))
     {
-     f= new File("bags.txt");
+     f= new File("Clothes.txt");
     }
             try{
                
@@ -66,9 +66,9 @@ class Customer
                 Watches obj= new Watches();
                 obj.remove(prod_no);
           }
-         else if(category.equalsIgnoreCase("Bags"))
+         else if(category.equalsIgnoreCase("Clothes"))
          {
-                Bags obj1=new Bags();
+                Clothes obj1=new Clothes();
                 obj1.remove(prod_no);
          }
           
