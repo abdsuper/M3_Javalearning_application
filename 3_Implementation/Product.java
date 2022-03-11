@@ -3,40 +3,40 @@ import java.util.ArrayList;
 abstract class Product
 {
     static ArrayList <String> bill =new ArrayList<>();
-      private String category;
-     private int product_no; 
+      private String section;
+     private int product_id; 
       private String name;
       private String brand;
-     private double price;
-      private double discount;
+     private double rate;
+      private double discount_rate;
     Product()
     {
-        category=null;
-        product_no=0;
+        section=null;
+        product_id=0;
         name=null;
         brand=null;
-        price=0;
-        discount=0;
+        rate=0;
+        discount_rate=0;
     }
-    Product(int p,String name,String brand,double price,double discount){
+    Product(int p,String name,String brand,double rate,double discount_rate){
 
-        this.price=price;
+        this.rate=rate;
         this.name=name;
-        this.product_no=p;
-        this.discount=discount;
+        this.product_id=p;
+        this.discount_rate=discount_rate;
         this.brand=brand;
     }
-          public void setproduct_no(int product_no){
-      this.product_no=product_no;}
+          public void setproduct_id(int product_id){
+      this.product_id=product_id;}
 
-   public int getproduct_no(){
-     return this.product_no;}
+   public int getproduct_id(){
+     return this.product_id;}
 
-      public void setcategory(String category){
-      this.category=category;}
+      public void setsection(String section){
+      this.section=section;}
      
-     public String getcategory(){
-     return this.category;}
+     public String getsection(){
+     return this.section;}
 
      public void setname(String name){
       this.name=name;}
@@ -50,17 +50,17 @@ abstract class Product
  public String getbrand(){
      return this.brand;}
 
-     public void setprice(double price){
-     this.price=price;}
+     public void setrate(double rate){
+     this.rate=rate;}
 
- public double getprice(){
-     return this.price;}
+ public double getrate(){
+     return this.rate;}
 
-      public void setdiscount(double discount){
-      this.discount=discount; }
+      public void setdiscount_rate(double discount_rate){
+      this.discount_rate=discount_rate; }
 
- public double getdiscount(){
-     return this.discount;}
+ public double getdiscount_rate(){
+     return this.discount_rate;}
 
 
 

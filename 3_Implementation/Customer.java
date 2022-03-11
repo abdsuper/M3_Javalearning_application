@@ -28,15 +28,15 @@ class Customer
                     temp=temp+" ";
                    
                     String pno=temp.substring(i,temp.indexOf(" "));
-                    System.out.println("Product-number: "+pno);
+                    System.out.println("Product-id: "+pno);
                     temp=temp.substring(temp.indexOf(" ")+1);
                     System.out.println("Brand: "+temp.substring(i,temp.indexOf(" ")));
                     temp=temp.substring(temp.indexOf(" ")+1);
                     System.out.println("Name: "+temp.substring(i,temp.indexOf(" ")));
                     temp=temp.substring(temp.indexOf(" ")+1);
-                    System.out.println("Price: "+temp.substring(i,temp.indexOf(" ")));
+                    System.out.println("Rate: "+temp.substring(i,temp.indexOf(" ")));
                     temp=temp.substring(temp.indexOf(" ")+1);
-                    System.out.println("Discount: "+temp.substring(i,temp.indexOf(" ")));
+                    System.out.println("Discount_rate: "+temp.substring(i,temp.indexOf(" ")));
                     System.out.println("*************************");
                 }
                

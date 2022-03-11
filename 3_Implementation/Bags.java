@@ -6,20 +6,20 @@ class Bags extends Product
 Bags(){
         super();
     }
-     Bags(int p,String name,String brand,double price,double discount ){
-        super( p, name, brand, price, discount);
-        getcategory();
+     Bags(int p,String name,String brand,double rate,double discount_rate ){
+        super( p, name, brand, rate, discount_rate);
+        getsection();
     }
 
     void add()
     {
         File f = new File("bags.txt");
         try{
-            boolean find=searchInStock(getproduct_no(),"add");
+            boolean find=searchInStock(getproduct_id(),"add");
             if(find==false)
             {
                 FileWriter fw = new FileWriter(f,true);
-                String temp=getproduct_no()+" "+getbrand()+" "+getname()+" "+getprice()+" "+getdiscount()+" "+"1"+" "+System.getProperty("line.separator");
+                String temp=getproduct_id()+" "+getbrand()+" "+getname()+" "+getrate()+" "+getdiscount_rate()+" "+"1"+" "+System.getProperty("line.separator");
                 fw.write(temp);     
                 fw.close();
             }
