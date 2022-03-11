@@ -3,12 +3,12 @@ import java.util.ArrayList;
 abstract class Product
 {
     static ArrayList <String> bill =new ArrayList<>();
-     public String category;
-     public int product_no; 
-     public String name;
-     public String brand;
-     public double price;
-     public double discount;
+      private String category;
+     private int product_no; 
+      private String name;
+      private String brand;
+     private double price;
+      private double discount;
     Product()
     {
         category=null;
@@ -57,7 +57,7 @@ abstract class Product
      return this.price;}
 
       public void setdiscount(double discount){
-      this.discount=discount;}
+      this.discount=discount; }
 
  public double getdiscount(){
      return this.discount;}

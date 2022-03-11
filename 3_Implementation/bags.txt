@@ -1,5 +1,5 @@
 6 Shirt Polo 900.0 40.0  4 
 15 Shirt Vp 500.0 0.0 10
-16 Pant Jeans 1000.0 100.0 10
-1 Pant Qanty 800.0 20.0 9 
+16 Pant Jeans 1000.0 100.0 9 
+1 Pant Qanty 800.0 20.0 8 
 5 Jacket Amaze 500.0 10.0 0 

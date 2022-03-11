@@ -10,7 +10,7 @@ class Watches extends Product
     }
      Watches(int p,String name,String brand,double price,double discount ){
         super( p, name, brand, price, discount);
-         category="watch";
+         getcategory();
         
     }
 
@@ -20,11 +20,11 @@ class Watches extends Product
         File f = new File("watches.txt");
        
         try{
-            boolean find=searchInStock(product_no,"add");
+            boolean find=searchInStock(getproduct_no(),"add");
             if(find==false)
             {
                 FileWriter fw = new FileWriter(f,true);
-                String temp=product_no+" "+brand+" "+name+" "+price+" "+discount+" "+"1"+" "+System.getProperty("line.separator");
+                String temp=getproduct_no()+" "+getbrand()+" "+getname()+" "+getprice()+" "+getdiscount()+" "+"1"+" "+System.getProperty("line.separator");
                 fw.write(temp);     
                 fw.close();
             }
