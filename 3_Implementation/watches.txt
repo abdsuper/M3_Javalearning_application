@@ -3,4 +3,5 @@
 55 hio green 4000.0 5.0 0 
 2323 adadasd asd 3123.0 123.0 1 
 22 dqq 2 2132321.0 12312.0 3 
-8 Masori Dal 100.0 10.0 1 
+8 Masori Dal 100.0 10.0 0 
+10 po io 100.0 10.0 1 
