@@ -11,7 +11,7 @@ class Main{
         t3.start();
         try{
             t1.join();   
-            t2.join();
+            t2.join();    
             t3.join();
         }
          catch(InterruptedException e)

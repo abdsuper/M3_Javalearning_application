@@ -6,10 +6,10 @@ import java.util.*;
 class Customer
 {
     File f=null;
-    void show(String category) 
+    void show(String category)
     {
-        if(category.equalsIgnoreCase("Watches") )
-        {  f= new File("watches.txt");
+        if(category.equalsIgnoreCase("Groceries") )
+        {  f= new File("Groceries.txt");
 
     }
     else if(category.equalsIgnoreCase("Clothes"))
@@ -61,9 +61,9 @@ class Customer
             }
            
       static  void select(int prod_no,String category){
-          if(category.equalsIgnoreCase("Watches"))
+          if(category.equalsIgnoreCase("Groceries"))
           {
-                Watches obj= new Watches();
+                Groceries obj= new Groceries();
                 obj.remove(prod_no);
           }
          else if(category.equalsIgnoreCase("Clothes"))

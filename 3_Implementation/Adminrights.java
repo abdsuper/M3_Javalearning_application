@@ -10,11 +10,11 @@ public class Adminrights implements Runnable{
         System.out.println("Are you a customer YES/NO");
         String cus=sc.next();
         while(true)
-        {
+        {  
             switch(cus)
             {
                 case "YES" :Customer obj = new Customer();
-                        System.out.println("Watches\nClothes");
+                        System.out.println("Groceries\nClothes");
                        String ch=sc.next();
                       
                         obj.show(ch);
@@ -31,7 +31,7 @@ public class Adminrights implements Runnable{
                     if(ch.equals("Add"))
                     {
                         System.out.println("Fill product details below:");
-                        System.out.println("Enter category :\nw - watches \nb - Clothes");
+                        System.out.println("Enter category :\nw - Groceries \nb - Clothes");
                         char cat=sc.next().charAt(0);
                         System.out.println("Enter product number");
                         int p=sc.nextInt();
@@ -64,8 +64,8 @@ public class Adminrights implements Runnable{
         }
         if(cus.equals("YES"))
         {
-            Bill obj=new Bill();
-            obj.displayBill();
+            BillBo obj=new BillBo();
+            obj.displaybill();
         }
        System.out.println("Thank You , Visit Again");
 

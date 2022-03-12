@@ -12,7 +12,7 @@ abstract class Item
    Item()
     {
         section=null;
-        product_id=0;
+        product_id=0;   
         name=null;
         brand=null;
         rate=0;

@@ -13,7 +13,7 @@ class Owner {
         {
             if (c=='w')
             {
-                Watches obj = new Watches(p,name,brand,price,discount);
+                Groceries obj = new Groceries(p,name,brand,price,discount);
                 obj.add();
             }
             else if(c=='b')
@@ -29,7 +29,7 @@ class Owner {
             {
                 System.out.println("Enter the product number");
                 int n=sc.nextInt();
-                Watches obj = new Watches();
+                Groceries obj = new Groceries();
                 obj.remove(n);
             }
             else if(c=='b')
