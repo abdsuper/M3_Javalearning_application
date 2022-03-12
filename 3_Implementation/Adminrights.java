@@ -55,12 +55,12 @@ public class Adminrights implements Runnable{
                 else{
                     System.out.println("Sorry !Wrong Password or USer ID\n Try again");
                 }
-                    break;
+                    
                     default:System.out.println("Wrong choice");
             }
             System.out.println("Do you want to exit the store ? YES / NO");
             if(sc.next().equals("YES"))
-            break ;
+            break;
         }
         if(cus.equals("YES"))
         {
