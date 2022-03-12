@@ -8,8 +8,8 @@ class Groceries extends Item
     Groceries(){
         super();
     }
-     Groceries(int p,String name,String brand,double rate,double discount_rate ){
-        super( p, name, brand, rate, discount_rate);
+     Groceries(int productId,String name,String brand,double rate,double discount_rate ){
+        super( productId, name, brand, rate, discount_rate);
          getsection();
         
     }

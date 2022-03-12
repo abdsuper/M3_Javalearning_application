@@ -7,18 +7,18 @@ class Owner {
  
     }
 
-    Owner(String  ch,char c,int p,String name,String brand,double price,double discount)
+    Owner(String  ch,char c,int productId,String name,String brand,double price,double discount)
     {
         if(ch=="add")
         {
             if (c=='w')
             {
-                Groceries obj = new Groceries(p,name,brand,price,discount);
+                Groceries obj = new Groceries(productId,name,brand,price,discount);
                 obj.add();
             }
             else if(c=='b')
             {
-                Clothes obj = new Clothes(p,name,brand,price,discount);
+                Clothes obj = new Clothes(productId,name,brand,price,discount);
                 obj.add();
             }
         }
@@ -36,7 +36,7 @@ class Owner {
             {
                 System.out.println("Enter the product number");
                 int n=sc.nextInt();
-                Clothes obj = new Clothes(p,name,brand,price,discount);
+                Clothes obj = new Clothes(productId,name,brand,price,discount);
                 obj.remove(n);
             }
         }

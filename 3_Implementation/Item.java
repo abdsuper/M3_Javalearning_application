@@ -14,15 +14,15 @@ abstract class Item
         section=null;
         product_id=0;   
         name=null;
-        brand=null;
+        brand=null; 
         rate=0;
         discount_rate=0;
     }
-    Item(int p,String name,String brand,double rate,double discount_rate){
+    Item(int productId,String name,String brand,double rate,double discount_rate){
 
         this.rate=rate;
         this.name=name;
-        this.product_id=p;
+        this.product_id=productId;
         this.discount_rate=discount_rate;
         this.brand=brand;
     }

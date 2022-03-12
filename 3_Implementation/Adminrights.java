@@ -9,7 +9,7 @@ public class Adminrights implements Runnable{
         System.out.println(" \t\t\t################# Welcome to Smart Store #################");
         System.out.println("Are you a customer YES/NO");
         String cus=sc.next();
-        while(true)
+        while(true)   
         {  
             switch(cus)
             {
@@ -34,7 +34,7 @@ public class Adminrights implements Runnable{
                         System.out.println("Enter category :\nw - Groceries \nb - Clothes");
                         char cat=sc.next().charAt(0);
                         System.out.println("Enter product number");
-                        int p=sc.nextInt();
+                        int productId=sc.nextInt();
                         System.out.println("Enter product name");
                         String name=sc.next();
                         System.out.println("Enter product brand");
@@ -43,7 +43,7 @@ public class Adminrights implements Runnable{
                         double price = sc.nextDouble();
                         System.out.println("Enter product discount");
                         double dis=sc.nextDouble();
-                    obj1 = new Owner("add",cat,p,name,brand,price,dis);
+                    obj1 = new Owner("add",cat,productId,name,brand,price,dis);
                     }
                     else if(ch.equals("Remove"))
                     {

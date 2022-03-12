@@ -6,8 +6,8 @@ class Clothes extends Item
 Clothes(){
         super();
     }
-     Clothes(int p,String name,String brand,double rate,double discount_rate ){
-        super( p, name, brand, rate, discount_rate);
+     Clothes(int productId,String name,String brand,double rate,double discount_rate ){
+        super( productId, name, brand, rate, discount_rate);
         getsection();
     }
 
