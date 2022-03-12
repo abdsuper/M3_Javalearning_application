@@ -3,6 +3,9 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 
 class BillBo extends Item {
+     String username;
+    String usercontact;
+    double totalprice = 0;  
     public void lineadder() {
         for (int x = 0; x < 60; x++) {
             System.out.print("-");      
@@ -10,9 +13,7 @@ class BillBo extends Item {
         System.out.println(" ");
     }   
 
-    String username;
-    String usercontact;
-    double totalprice = 0;  
+    
 
     void displaybill() {   
         Scanner sc = new Scanner(System.in);
