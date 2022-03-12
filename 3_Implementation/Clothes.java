@@ -1,4 +1,4 @@
-/** This class deals with Clothes and thus inherits the Product class */
+/** This class deals with Clothes and thus inherits the Item class */
 
 import java.io.*;
 class Clothes extends Item

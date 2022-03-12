@@ -1,5 +1,5 @@
 6 Shirt Polo 900.0 40.0  0 
-15 Shirt Vp 500.0 0.0 10
+15 Shirt Vp 500.0 0.0 11 
 16 Pant Jeans 1000.0 100.0 0 
 1 Pant Qanty 800.0 20.0 6 
 5 Jacket Amaze 500.0 10.0 0 
@@ -7,3 +7,5 @@
 7 op lasi 1090.0 90.0 0 
 4 Rebok Bat 1500.0 100.0 0 
 9 o l 300.0 17.0 0 
+14 V Cap 100.0 5.0 1 
+90 op jeans 1000.0 200.0 0 

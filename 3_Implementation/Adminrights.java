@@ -6,7 +6,7 @@ public class Adminrights implements Runnable{
  synchronized public  void run()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println(" \t\t\t################# Welcome to Smart Store #################");
+        System.out.println(" \t\t\t<<<<<<<<<<<< Welcome to Smart Store >>>>>>>>>>>>>");
         System.out.println("Are you a customer YES/NO");
         String cus=sc.next();
         while(true)   
@@ -26,7 +26,7 @@ public class Adminrights implements Runnable{
 
                         
                 Owner obj1;
-                System.out.println("Do you Want to Add or Remove");
+                System.out.println("Enter Add to AddItem or Remove to RemoveItem");
                     ch=sc.next();
                     if(ch.equals("Add"))
                     {
@@ -47,18 +47,18 @@ public class Adminrights implements Runnable{
                     }
                     else if(ch.equals("Remove"))
                     {
-                        System.out.println("Enter category ");
+                        System.out.println("Enter category:\nw - Groceries \nb - Clothes");
                         char cat=sc.next().charAt(0);
                         obj1 = new Owner("remove",cat,324324,"adadd","Sdfd",234,24);
                     }
                 }
                 else{
-                    System.out.println("Sorry !Wrong Password or USer ID\n Try again");
+                    System.out.println("Wrong Password or USER ID\n Try again");
                 }
-                    
-                    default:System.out.println("Wrong choice");
+                    break;
+                    default:System.out.println("Wrong ");
             }
-            System.out.println("Do you want to exit the store ? YES / NO");
+            System.out.println(" Exit the store ? YES / NO");
             if(sc.next().equals("YES"))
             break;
         }
